@@ -1,7 +1,5 @@
 #include <stdio.h>
 
-
-
 int main () {
 
     //declaração de variáveis
@@ -12,6 +10,7 @@ int main () {
     
     numero_inicio = 2.3;
     numero_fim = 4.5;
+    resultado_da_soma = numero_inicio + numero_fim;
       
 
     //processamento
@@ -20,7 +19,7 @@ int main () {
 
     //saída
     
-    printf("Area do quadrado é: %2.f", area);
+    printf("A soma e =  %2.f", resultado_da_soma);
 
 
 }
